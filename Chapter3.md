@@ -4,7 +4,7 @@ After building the applications in containers, it needs to deploy into a reliabl
 
 ## Installing Kubernetes on a Public Cloud Provider
 
-In Google Container Service:
+In **Google Container Service**:
 
 ```bash
 gcloud config set compute/zone asia-south1-b # default zone
@@ -13,7 +13,7 @@ gcloud container clusters create kuar-cluster # cluster creation
 
 gcloud auth applicaton-default login # credentials
 ```
-In Azure Container Service:
+In **Azure Container Service**:
 
 ```bash
 az group create --name=kuar --location=westus # resource-group creation
@@ -24,7 +24,8 @@ az acs kubernetes get-credentials --resource-group=kuar --name=kuar-cluster # cr
 
 az acs kubernetes install-cli # installing kubectl
 ```
-In AWS(Amazon Web Services):
+
+In **AWS(Amazon Web Services)**:
 
 Till the release of book, AWS does not offer any hosted Kubernetes services, but there are many ways to do that. But now there is on Amazon Elastic Container Service for Kubernetes which does the same. 
 
@@ -88,4 +89,4 @@ kubectl get services --namespace=kube-system kubernetes-dashboard
 kubectl proxy # starts up a server on localhost:8001
 ```
 
-This chapter was mostly about the components and object kubernetes provides.
+This chapter was mostly about the components and objects kubernetes provides.
