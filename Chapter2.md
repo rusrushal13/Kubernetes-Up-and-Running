@@ -1,4 +1,4 @@
-# [Chapter 2. Creating and Running Containers](https://github.com/rusrushal13/Kubernetes-Up-and-Running-Notes/blob/master/Chapter1.md#chapter-2-creating-and-running-containers)
+# [Chapter 2. Creating and Running Containers](https://github.com/rusrushal13/Kubernetes-Up-and-Running-Notes/blob/master/Chapter2.md#chapter-2-creating-and-running-containers)
 
 The distributed systems that can be deployed by k8s are made up primarily of application container images.
 

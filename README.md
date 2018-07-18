@@ -5,3 +5,5 @@ Notes from the [Kubernetes: Up and Running](http://shop.oreilly.com/product/0636
 1. [Introduction](https://github.com/rusrushal13/Kubernetes-Up-and-Running-Notes/blob/master/Chapter1.md)
 
 2. [Creating and Running Containers](https://github.com/rusrushal13/Kubernetes-Up-and-Running-Notes/blob/master/Chapter2.md)
+
+3. [Deploying a Kubernetes Cluster](https://github.com/rusrushal13/Kubernetes-Up-and-Running-Notes/blob/master/Chapter3.md)
